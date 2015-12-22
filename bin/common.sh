@@ -37,7 +37,7 @@ check_compile_status()
 install_play()
 {
   VER_TO_INSTALL=$1
-  PLAY_URL="https://s3.amazonaws.com/picksomething-play/play-master-eac6035.tar.gz"
+  PLAY_URL="https://s3.amazonaws.com/picksomething-play/play1-1.4.1.tar.gz"
   PLAY_TAR_FILE="play-heroku.tar.gz"
   echo "-----> Installing Play! $VER_TO_INSTALL....."
   curl --silent --max-time 150 --location $PLAY_URL -o $PLAY_TAR_FILE
